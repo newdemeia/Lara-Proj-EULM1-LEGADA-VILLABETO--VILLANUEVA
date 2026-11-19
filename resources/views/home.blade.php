@@ -52,7 +52,7 @@
             that connect Butuan’s past with its future.
         </p>
 
-        <a class="button button-light" href="{{ route('contact') }}">
+        <a class="button button-light" href="/contact">
             Plan Your Visit <span aria-hidden="true">↗</span>
         </a>
     </div>
@@ -112,7 +112,7 @@
 
     <div class="museum-grid">
 
-        <a class="museum-card" href="{{ route('about') }}">
+        <a class="museum-card" href="/about">
             <div class="card-image">
                 <img src="{{ asset('images/gallery1.jpg') }}"
                      alt="Traditional garments and textiles"
@@ -128,7 +128,7 @@
             </div>
         </a>
 
-        <a class="museum-card" href="{{ route('about') }}">
+        <a class="museum-card" href="/about">
             <div class="card-image">
                 <img src="{{ asset('images/gallery2.jpg') }}"
                      alt="Museum gallery and historical objects"
@@ -144,7 +144,7 @@
             </div>
         </a>
 
-        <a class="museum-card" href="{{ route('about') }}">
+        <a class="museum-card" href="/about">
             <div class="card-image">
                 <img src="{{ asset('images/gallery3.jpg') }}"
                      alt="Historic wooden boat remains"
@@ -160,7 +160,7 @@
             </div>
         </a>
 
-        <a class="museum-card" href="{{ route('about') }}">
+        <a class="museum-card" href="/about">
             <div class="card-image">
                 <img src="{{ asset('images/gallery4.jpg') }}"
                      alt="Museum gallery with framed works"
@@ -201,7 +201,7 @@
             shaped our communities.
         </p>
 
-        <a class="text-link" href="{{ route('about') }}">
+        <a class="text-link" href="/about">
             Get to know the museum <span>↗</span>
         </a>
     </div>
@@ -215,7 +215,7 @@
 
     <p>Plan a visit and explore the stories behind the exhibits.</p>
 
-    <a class="button button-red" href="{{ route('contact') }}">
+    <a class="button button-red" href="/contact">
         Contact & Visit Information <span aria-hidden="true">↗</span>
     </a>
 </section>

@@ -55,7 +55,7 @@
             </a>
 
             <a
-                href="{{ route('about') }}"
+                href="/about"
                 class="{{ request()->routeIs('about') ? 'active' : '' }}"
                 @if(request()->routeIs('about')) aria-current="page" @endif
             >
@@ -63,7 +63,7 @@
             </a>
 
             <a
-                href="{{ route('contact') }}"
+                href="/contact"
                 class="nav-cta {{ request()->routeIs('contact') ? 'active' : '' }}"
                 @if(request()->routeIs('contact')) aria-current="page" @endif
             >
@@ -106,8 +106,8 @@
                 <h3>Explore</h3>
 
                 <a href="{{ route('home') }}">Home</a>
-                <a href="{{ route('about') }}">About the Museum</a>
-                <a href="{{ route('contact') }}">Contact</a>
+                <a href="/about">About the Museum</a>
+                <a href="/contact">Contact</a>
             </div>
 
             <div class="footer-links">
