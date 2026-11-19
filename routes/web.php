@@ -2,7 +2,14 @@
 
 use Illuminate\Support\Facades\Route;
 
-// Member 3 - Villanueva (Contact)
+Route::get('/', function () {
+    return view('home');
+})->name('home');
+
+Route::get('/about', function () {
+    return view('about');
+});
+
 Route::get('/contact', function () {
     return view('contact');
 });
