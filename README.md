@@ -1,7 +1,6 @@
 # Lara-Proj-EULM1-Villabeto-Legada-Villanueva
 
 ## Group Information
-- **Group Name:** (your group name)
 - **Section:** EULM1
 - **Members:**
   - Villabeto (Member 1, Group Leader)
@@ -9,7 +8,7 @@
   - Villanueva (Member 3)
 
 ## Theme
-(1-2 sentences describing your website theme)
+Our website is themed around the National Museum of the Philippines – Butuan, showcasing its exhibits, artifacts, and cultural heritage. It invites visitors to discover Butuan’s rich history through an elegant, museum-inspired design.
 
 ## Modules and Branches
 | Member | Module | Branch |
